@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_icon.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_asset.dart';
-import 'package:flutter_japanese_restaurant_app/src/model/food.dart';
-import 'package:flutter_japanese_restaurant_app/src/model/food_category.dart';
-import 'package:flutter_japanese_restaurant_app/src/model/bottom_navigation_item.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_icon.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_asset.dart';
+import 'package:aplicativo_flutter_damd_puc/src/model/food.dart';
+import 'package:aplicativo_flutter_damd_puc/src/model/food_category.dart';
+import 'package:aplicativo_flutter_damd_puc/src/model/bottom_navigation_item.dart';
 
 class AppData {
   const AppData._();

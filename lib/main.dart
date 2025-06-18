@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui' show PointerDeviceKind;
-import 'package:flutter_japanese_restaurant_app/src/view/screen/home_screen.dart';
-import 'package:flutter_japanese_restaurant_app/src/controller/food_controller.dart';
+import 'package:aplicativo_flutter_damd_puc/src/view/screen/home_screen.dart';
+import 'package:aplicativo_flutter_damd_puc/src/controller/food_controller.dart';
 
 final FoodController controller = Get.put(FoodController());
 

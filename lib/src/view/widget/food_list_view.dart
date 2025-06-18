@@ -1,12 +1,12 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_style.dart';
-import 'package:flutter_japanese_restaurant_app/src/model/food.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_color.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_extension.dart';
-import 'package:flutter_japanese_restaurant_app/src/controller/food_controller.dart';
-import 'package:flutter_japanese_restaurant_app/src/view/screen/food_detail_screen.dart';
-import 'package:flutter_japanese_restaurant_app/src/view/widget/custom_page_route.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_style.dart';
+import 'package:aplicativo_flutter_damd_puc/src/model/food.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_color.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_extension.dart';
+import 'package:aplicativo_flutter_damd_puc/src/controller/food_controller.dart';
+import 'package:aplicativo_flutter_damd_puc/src/view/screen/food_detail_screen.dart';
+import 'package:aplicativo_flutter_damd_puc/src/view/widget/custom_page_route.dart';
 
 final FoodController controller = Get.put(FoodController());
 

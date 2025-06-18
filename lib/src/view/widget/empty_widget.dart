@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_asset.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_extension.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_asset.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_extension.dart';
 
 enum EmptyWidgetType { cart, favorite }
 

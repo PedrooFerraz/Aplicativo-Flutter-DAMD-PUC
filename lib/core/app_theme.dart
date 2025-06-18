@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_style.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_color.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_style.dart';
+import 'package:aplicativo_flutter_damd_puc/core/app_color.dart';
 
 class AppTheme {
   const AppTheme._();

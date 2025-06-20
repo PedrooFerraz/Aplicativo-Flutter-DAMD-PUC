@@ -67,7 +67,7 @@ class CartScreen extends StatelessWidget {
                           style: context.headlineSmall,
                         ),
                         Text(
-                          "\$${5.00}",
+                          "\$R${5.00}",
                           style: context.displayMedium,
                         ),
                       ],
@@ -88,7 +88,7 @@ class CartScreen extends StatelessWidget {
                         ),
                         Obx(() {
                           return Text(
-                            controller.totalPrice.value == 5.0 ? "\$0.0" : "\$${controller.totalPrice}",
+                            controller.totalPrice.value == 5.0 ? "\$0.0" : "\$R${controller.totalPrice}",
                             style: h2Style.copyWith(
                               color: LightThemeColor.accent,
                             ),
@@ -167,7 +167,7 @@ class CartScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 5),
                     Text(
-                      "\$${controller.cartFood[index].price}",
+                      "\$R${controller.cartFood[index].price}",
                       style: context.headlineSmall,
                     ),
                   ],
@@ -186,7 +186,7 @@ class CartScreen extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "\$${controller.calculatePricePerEachItem(controller.cartFood[index])}",
+                      "\$R${controller.calculatePricePerEachItem(controller.cartFood[index])}",
                       style: h2Style.copyWith(color: LightThemeColor.accent),
                     )
                   ],
@@ -208,7 +208,7 @@ class CartScreen extends StatelessWidget {
       bottomNavigationBar: controller.cartFood.isNotEmpty ? _bottomAppBar(height, width, context) : const SizedBox(),
       appBar: _appBar(context),
       body: EmptyWidget(
-        title: "Empty cart",
+        title: "Carrinho Vazio",
         condition: controller.cartFood.isNotEmpty,
         child: SingleChildScrollView(
           child: SizedBox(

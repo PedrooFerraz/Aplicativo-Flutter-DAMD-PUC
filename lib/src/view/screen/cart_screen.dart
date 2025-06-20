@@ -49,7 +49,7 @@ class CartScreen extends StatelessWidget {
                         ),
                         Obx(() {
                           return Text(
-                            "\$${controller.subtotalPrice.value}",
+                            "\$R${controller.subtotalPrice.value}",
                             style: context.displayMedium,
                           );
                         }),

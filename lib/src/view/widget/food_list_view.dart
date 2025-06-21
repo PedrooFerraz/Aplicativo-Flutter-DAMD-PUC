@@ -52,7 +52,7 @@ class FoodListView extends StatelessWidget {
                     Image.asset(food.image, scale: 6),
                     Text(
                       "\$${food.price}",
-                      style: h3Style.copyWith(color: LightThemeColor.accent),
+                      style: h3Style.copyWith(color: Colors.red),
                     ),
                     Text(
                       food.name,

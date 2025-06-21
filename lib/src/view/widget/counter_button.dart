@@ -23,7 +23,7 @@ class CounterButton extends StatelessWidget {
     return RawMaterialButton(
       constraints: BoxConstraints.tight(size),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-      fillColor: LightThemeColor.accent,
+      fillColor: Colors.red,
       onPressed: () => onTap(),
       child: icon,
     );

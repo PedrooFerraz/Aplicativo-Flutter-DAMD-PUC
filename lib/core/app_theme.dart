@@ -9,7 +9,7 @@ class AppTheme {
     useMaterial3: false,
     scaffoldBackgroundColor: LightThemeColor.primaryLight,
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
-      backgroundColor: LightThemeColor.accent,
+      backgroundColor: Colors.red,
     ),
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.transparent,
@@ -21,7 +21,7 @@ class AppTheme {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all<Color>(
-          LightThemeColor.accent,
+          Colors.red,
         ),
       ),
     ),
@@ -37,7 +37,7 @@ class AppTheme {
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       type: BottomNavigationBarType.fixed,
       backgroundColor: Colors.white,
-      selectedItemColor: LightThemeColor.accent,
+      selectedItemColor: Colors.red,
     ),
     textTheme: const TextTheme(
       displayLarge: h1Style,
@@ -57,7 +57,7 @@ class AppTheme {
     canvasColor: DarkThemeColor.primaryDark,
     scaffoldBackgroundColor: DarkThemeColor.primaryDark,
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
-      backgroundColor: LightThemeColor.accent,
+      backgroundColor: Colors.red,
     ),
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.transparent,
@@ -70,7 +70,7 @@ class AppTheme {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all<Color>(
-          LightThemeColor.accent,
+          Colors.red,
         ),
       ),
     ),
@@ -85,7 +85,7 @@ class AppTheme {
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       type: BottomNavigationBarType.fixed,
       backgroundColor: DarkThemeColor.primaryLight,
-      selectedItemColor: LightThemeColor.accent,
+      selectedItemColor: Colors.red,
       unselectedItemColor: Colors.white70,
     ),
     textTheme: TextTheme(

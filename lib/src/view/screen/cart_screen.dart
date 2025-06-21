@@ -88,9 +88,9 @@ class CartScreen extends StatelessWidget {
                         ),
                         Obx(() {
                           return Text(
-                            controller.totalPrice.value == 5.0 ? "\$0.0" : "\$R${controller.totalPrice}",
+                            controller.totalPrice.value == 5.0 ? "\$0.0" : "R\$${controller.totalPrice}",
                             style: h2Style.copyWith(
-                              color: LightThemeColor.accent,
+                              color: Colors.red,
                             ),
                           );
                         }),
@@ -187,7 +187,7 @@ class CartScreen extends StatelessWidget {
                     ),
                     Text(
                       "R\$ ${controller.calculatePricePerEachItem(controller.cartFood[index])}",
-                      style: h2Style.copyWith(color: LightThemeColor.accent),
+                      style: h2Style.copyWith(color: Colors.red),
                     )
                   ],
                 )

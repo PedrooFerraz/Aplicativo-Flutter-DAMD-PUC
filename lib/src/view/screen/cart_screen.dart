@@ -49,7 +49,7 @@ class CartScreen extends StatelessWidget {
                         ),
                         Obx(() {
                           return Text(
-                            "\$R${controller.subtotalPrice.value}",
+                            "R\$ ${controller.subtotalPrice.value}",
                             style: context.displayMedium,
                           );
                         }),
@@ -67,7 +67,7 @@ class CartScreen extends StatelessWidget {
                           style: context.headlineSmall,
                         ),
                         Text(
-                          "\$R${5.00}",
+                          "R\$ ${5.00}",
                           style: context.displayMedium,
                         ),
                       ],
@@ -167,7 +167,7 @@ class CartScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 5),
                     Text(
-                      "\$R${controller.cartFood[index].price}",
+                      "R\$ ${controller.cartFood[index].price}",
                       style: context.headlineSmall,
                     ),
                   ],
@@ -186,7 +186,7 @@ class CartScreen extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "\$R${controller.calculatePricePerEachItem(controller.cartFood[index])}",
+                      "R\$ ${controller.calculatePricePerEachItem(controller.cartFood[index])}",
                       style: h2Style.copyWith(color: LightThemeColor.accent),
                     )
                   ],

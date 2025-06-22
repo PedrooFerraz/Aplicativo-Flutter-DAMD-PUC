@@ -83,7 +83,7 @@ class AppData {
       false,
       dummyText,
       1.5,
-      FoodType.burger,
+      FoodType.hamburguer,
       350,
     ),
     Food(
@@ -94,7 +94,7 @@ class AppData {
       false,
       dummyText,
       3.5,
-      FoodType.burger,
+      FoodType.hamburguer,
       265,
     ),
     Food(
@@ -164,26 +164,26 @@ class AppData {
     BottomNavigationItem(
       const Icon(Icons.shopping_cart_outlined),
       const Icon(Icons.shopping_cart),
-      'Shopping cart',
+      'Carrinho de Compras',
     ),
     BottomNavigationItem(
       const Icon(AppIcon.outlinedHeart),
       const Icon(AppIcon.heart),
-      'Favorite',
+      'Favoritos',
     ),
     BottomNavigationItem(
       const Icon(Icons.person_outline),
       const Icon(Icons.person),
-      'Profile',
+      'Perfil',
     )
   ];
 
   static List<FoodCategory> categories = [
-    FoodCategory(FoodType.all, true),
+    FoodCategory(FoodType.todas, true),
     FoodCategory(FoodType.sushi, false),
     FoodCategory(FoodType.kebab, false),
     FoodCategory(FoodType.tempura, false),
     FoodCategory(FoodType.ramen, false),
-    FoodCategory(FoodType.burger, false),
+    FoodCategory(FoodType.hamburguer, false),
   ];
 }

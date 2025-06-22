@@ -27,7 +27,7 @@ class FoodListScreen extends StatelessWidget {
             Icons.location_on_outlined,
             color: LightThemeColor.accent,
           ),
-          Text("Location", style: context.bodyLarge)
+          Text("Localização", style: context.bodyLarge)
         ],
       ),
       actions: [
@@ -38,10 +38,10 @@ class FoodListScreen extends StatelessWidget {
               badgeColor: LightThemeColor.accent,
             ),
             badgeContent: const Text(
-              "2",
+              "4",
               style: TextStyle(color: Colors.white),
             ),
-            position: BadgePosition.topStart(start: -3),
+            position: BadgePosition.topStart(start: -4),
             child: const Icon(Icons.notifications_none, size: 30),
           ),
         )
@@ -54,7 +54,7 @@ class FoodListScreen extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
       child: TextField(
         decoration: InputDecoration(
-          hintText: 'Search food',
+          hintText: 'Procurar..',
           prefixIcon: Icon(Icons.search, color: Colors.grey),
           contentPadding: EdgeInsets.all(20),
         ),
@@ -73,16 +73,16 @@ class FoodListScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Morning, Sina",
+                "Bem vindo, Usuário",
                 style: context.headlineSmall,
               ).fadeAnimation(0.2),
               Text(
-                "What do you want to eat \ntoday",
+                "O que você deseja comer \nhoje?",
                 style: context.displayLarge,
               ).fadeAnimation(0.4),
               _searchBar(),
               Text(
-                "Available for you",
+                "Disponível para você",
                 style: context.displaySmall,
               ),
               Padding(
@@ -101,7 +101,7 @@ class FoodListScreen extends StatelessWidget {
                               controller.filterItemByCategory(category);
                             },
                             child: Container(
-                              width: 100,
+                              width: 110,
                               alignment: Alignment.center,
                               padding: const EdgeInsets.all(10),
                               decoration: BoxDecoration(
@@ -138,13 +138,13 @@ class FoodListScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Best food of the week",
+                      "Mais pedidos na semana",
                       style: context.displaySmall,
                     ),
                     Padding(
                       padding: const EdgeInsets.only(right: 20),
                       child: Text(
-                        "See all",
+                        "Ver todos",
                         style: context.headlineMedium.copyWith(
                           color: LightThemeColor.accent,
                         ),

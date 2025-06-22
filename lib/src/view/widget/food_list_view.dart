@@ -38,7 +38,7 @@ class FoodListView extends StatelessWidget {
               );
             },
             child: Container(
-              width: 180,
+              width: 200,
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: controller.isLightTheme ? Colors.white : DarkThemeColor.primaryLight,
@@ -49,7 +49,7 @@ class FoodListView extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Image.asset(food.image, scale: 6),
+                    Image.asset(food.image, scale: 1),
                     Text(
                       "\$${food.price}",
                       style: h3Style.copyWith(color: Colors.red),

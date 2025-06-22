@@ -68,7 +68,7 @@ class FoodController extends GetxController {
     }
     category.isSelected = true;
 
-    if (category.type == FoodType.todas) {
+    if (category.type == FoodType.todos) {
       filteredFoods.assignAll(AppData.foodItems.obs);
     } else {
       filteredFoods.assignAll(AppData.foodItems.where((item) {

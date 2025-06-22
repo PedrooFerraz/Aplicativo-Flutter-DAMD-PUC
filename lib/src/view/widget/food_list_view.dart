@@ -38,7 +38,7 @@ class FoodListView extends StatelessWidget {
               );
             },
             child: Container(
-              width: 160,
+              width: 180,
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: controller.isLightTheme ? Colors.white : DarkThemeColor.primaryLight,
@@ -67,7 +67,7 @@ class FoodListView extends StatelessWidget {
           );
         },
         separatorBuilder: (_, __) {
-          return const Padding(padding: EdgeInsets.only(right: 50));
+          return const Padding(padding: EdgeInsets.only(right: 30));
         },
       ),
     );

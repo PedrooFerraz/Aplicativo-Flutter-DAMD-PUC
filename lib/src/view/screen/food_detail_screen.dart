@@ -175,7 +175,7 @@ class FoodDetailScreen extends StatelessWidget {
         child: Center(
           child: Padding(
             padding: const EdgeInsets.all(24.0),
-            child: Image.asset(food.image, scale: 2),
+            child: Image.asset(food.image, scale: 0.6),
           ),
         ),
       ),

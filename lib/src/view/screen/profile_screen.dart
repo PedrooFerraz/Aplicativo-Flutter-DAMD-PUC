@@ -22,8 +22,6 @@ class ProfileScreen extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(AppAsset.githubImage, width: 60),
-              const SizedBox(width: 10),
               Text(
                 'Meu Perfil',
                 style: context.displaySmall,

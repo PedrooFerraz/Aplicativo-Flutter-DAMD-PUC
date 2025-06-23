@@ -68,7 +68,12 @@ class FavoriteScreen extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               style: context.bodyLarge,
             ),
-            trailing: const Icon(AppIcon.heart, color: Colors.redAccent),
+            trailing: IconButton(
+  icon: const Icon(AppIcon.heart, color: Colors.redAccent),
+  onPressed: () {
+    controller.isFavoriteFood(food);
+  },
+),
           ),
         ).fadeAnimation(index * 0.4);
       },

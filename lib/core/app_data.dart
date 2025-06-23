@@ -51,7 +51,7 @@ static List<Food> foodItems = [
     8.0,
     1,
     false,
-    "Fatias de abacaxi maduro e suculento, ideal para uma sobremesa leve.",
+    "Fatias suculentas de abacaxi maduro, com doçura natural e textura crocante, perfeitas para uma sobremesa leve e refrescante.",
     4.6,
     FoodType.frutas,
     120,

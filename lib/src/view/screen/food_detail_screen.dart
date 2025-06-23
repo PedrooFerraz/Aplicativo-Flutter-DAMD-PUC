@@ -23,7 +23,7 @@ class FoodDetailScreen extends StatelessWidget {
   PreferredSizeWidget _appBar(BuildContext context) {
     return AppBar(
       title: Text(
-        "Food Detail Screen",
+        "DETALHES DO PRODUTO",
         style: TextStyle(
           color: controller.isLightTheme ? Colors.black : Colors.white,
         ),
@@ -44,7 +44,7 @@ class FoodDetailScreen extends StatelessWidget {
   Widget fab(VoidCallback onPressed) {
     return FloatingActionButton(
       elevation: 0.0,
-      backgroundColor: LightThemeColor.accent,
+      backgroundColor: const Color.fromARGB(255, 253, 41, 41),
       onPressed: onPressed,
       child: food.isFavorite ? const Icon(AppIcon.heart) : const Icon(AppIcon.outlinedHeart),
     );
@@ -95,7 +95,7 @@ class FoodDetailScreen extends StatelessWidget {
                             ignoreGestures: true,
                             itemBuilder: (_, __) => const FaIcon(
                               FontAwesomeIcons.solidStar,
-                              color: LightThemeColor.yellow,
+                              color: Color.fromARGB(255, 255, 73, 73),
                             ),
                             onRatingUpdate: (rating) {},
                           ),
@@ -116,9 +116,9 @@ class FoodDetailScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\$${food.price}",
+                            "R\$${food.price}",
                             style: context.displayLarge.copyWith(
-                              color: LightThemeColor.accent,
+                              color: const Color.fromARGB(255, 253, 41, 41),
                             ),
                           ),
                           GetBuilder(
@@ -137,7 +137,7 @@ class FoodDetailScreen extends StatelessWidget {
                       ).fadeAnimation(0.6),
                       const SizedBox(height: 15),
                       Text(
-                        "Description",
+                        "DESCRIÇÃO",
                         style: context.displayMedium,
                       ).fadeAnimation(0.8),
                       const SizedBox(height: 15),
@@ -161,7 +161,7 @@ class FoodDetailScreen extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () => controller.addToCart(food),
                     child: Text(
-                      "Add to cart",
+                      "Adicionar ao Carrinho",
                       style: TextStyle(
                         color: controller.isLightTheme ? Colors.white : Colors.black,
                       ),

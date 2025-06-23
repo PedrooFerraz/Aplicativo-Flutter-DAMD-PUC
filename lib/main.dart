@@ -1,3 +1,4 @@
+import 'package:aplicativo_flutter_damd_puc/src/view/screen/login_screen.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui' show PointerDeviceKind;
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
           },
         ),
         theme: controller.theme.value,
-        home: HomeScreen(),
+       home: const LoginScreen(),
       );
     });
   }

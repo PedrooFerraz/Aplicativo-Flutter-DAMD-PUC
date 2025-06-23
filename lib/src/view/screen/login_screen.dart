@@ -1,3 +1,4 @@
+import 'package:aplicativo_flutter_damd_puc/src/view/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:aplicativo_flutter_damd_puc/core/app_asset.dart';
 import 'package:aplicativo_flutter_damd_puc/core/app_extension.dart';
@@ -52,7 +53,7 @@ class LoginScreen extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const ProfileScreen()),
+                          builder: (context) =>  HomeScreen()),
                     );
                   },
                   child: const Text('Entrar'),

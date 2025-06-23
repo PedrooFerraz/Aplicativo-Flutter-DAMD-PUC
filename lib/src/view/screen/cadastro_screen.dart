@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:aplicativo_flutter_damd_puc/core/app_asset.dart';
-import 'package:aplicativo_flutter_damd_puc/core/app_extension.dart';
-import 'login_screen.dart';
 
 class CadastroScreen extends StatelessWidget {
   const CadastroScreen({super.key});

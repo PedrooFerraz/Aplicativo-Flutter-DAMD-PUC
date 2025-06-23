@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:aplicativo_flutter_damd_puc/core/app_asset.dart';
 import 'package:aplicativo_flutter_damd_puc/core/app_extension.dart';
 import 'cadastro_screen.dart';
-import 'profile_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

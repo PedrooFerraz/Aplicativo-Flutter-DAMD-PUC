@@ -2,7 +2,6 @@ import 'package:aplicativo_flutter_damd_puc/src/view/screen/login_screen.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui' show PointerDeviceKind;
-import 'package:aplicativo_flutter_damd_puc/src/view/screen/home_screen.dart';
 import 'package:aplicativo_flutter_damd_puc/src/controller/food_controller.dart';
 
 final FoodController controller = Get.put(FoodController());

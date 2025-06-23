@@ -15,6 +15,10 @@ class CartScreen extends StatelessWidget {
 
   PreferredSizeWidget _appBar(BuildContext context) {
     return AppBar(
+      leading: IconButton(
+        icon: const FaIcon(FontAwesomeIcons.dice),
+        onPressed: controller.changeTheme,
+      ),
       title: Text(
         "Carrinho",
         style: context.displayMedium,
@@ -156,7 +160,7 @@ class CartScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 const SizedBox(width: 20),
-                Image.asset(controller.cartFood[index].image, scale: 10),
+                Image.asset(controller.cartFood[index].image, scale: 1),
                 const SizedBox(width: 20),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,

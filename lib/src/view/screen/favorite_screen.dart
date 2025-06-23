@@ -6,18 +6,21 @@ import 'package:aplicativo_flutter_damd_puc/src/model/food.dart';
 import 'package:aplicativo_flutter_damd_puc/core/app_extension.dart';
 import 'package:aplicativo_flutter_damd_puc/src/view/widget/empty_widget.dart';
 import 'package:aplicativo_flutter_damd_puc/src/controller/food_controller.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class FavoriteScreen extends StatelessWidget {
   const FavoriteScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final FoodController controller = Get.find<FoodController>();
-
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const FaIcon(FontAwesomeIcons.arrowLeft),
+          onPressed: ()=>{},
+        ),
         title: Text(
-          "FAVORITOS",
+          "Favoritos",
           style: context.displayMedium,
         ),
       ),
@@ -70,11 +73,11 @@ class FavoriteScreen extends StatelessWidget {
             ),
             //Aqui aonde ocorre a remoção dos favoritos
             trailing: IconButton(
-  icon: const Icon(AppIcon.heart, color: Colors.redAccent),
-  onPressed: () {
-    controller.isFavoriteFood(food);
-  },
-),
+              icon: const Icon(AppIcon.heart, color: Colors.redAccent),
+              onPressed: () {
+                controller.isFavoriteFood(food);
+              },
+            ),
           ),
         ).fadeAnimation(index * 0.4);
       },

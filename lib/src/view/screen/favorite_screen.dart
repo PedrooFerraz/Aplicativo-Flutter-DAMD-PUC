@@ -68,6 +68,7 @@ class FavoriteScreen extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               style: context.bodyLarge,
             ),
+            //Aqui aonde ocorre a remoção dos favoritos
             trailing: IconButton(
   icon: const Icon(AppIcon.heart, color: Colors.redAccent),
   onPressed: () {

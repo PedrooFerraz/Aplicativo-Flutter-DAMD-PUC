@@ -110,7 +110,7 @@ static List<Food> foodItems = [
     20.0,
     1,
     false,
-    "Base crocante de biscoito, creme leve de queijo e calda de morangos frescos.",
+    "Base crocante de biscoito, recheio leve e cremoso de queijo e uma generosa calda feita com morangos frescos e suculentos. Uma sobremesa delicada e irresistível!",
     4.9,
     FoodType.sobremesas,
     220,

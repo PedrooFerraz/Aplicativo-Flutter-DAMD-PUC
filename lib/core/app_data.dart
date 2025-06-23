@@ -64,7 +64,7 @@ static List<Food> foodItems = [
     28.0,
     1,
     false,
-    "Camadas de massa, carne moída, molho de tomate e queijo gratinado.",
+    "Camadas generosas de massa fresca, carne moída suculenta, molho de tomate caseiro e queijo gratinado, derretendo e dourado na medida certa. Uma explosão de sabor em cada garfada!",
     4.9,
     FoodType.pratos,
     275,
